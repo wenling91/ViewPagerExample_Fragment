@@ -32,7 +32,13 @@ class MyViewModel : ViewModel() {
                 "慈母橋是一座形狀美麗的紅色大橋，位於天祥以東三公里處的中橫公路上，為立霧溪與其支流荖西溪的匯流處。"
             )
         )
-        sceneList.add(Scenes(3,"Taipei", "天元宮", R.drawable.photo0_0, "擁有五層圓型寶塔的壯觀寺廟，每逢櫻花季會吸引大批人潮。"))
+        sceneList.add(
+            Scenes(
+                3,"Taipei",
+                "天元宮",
+                R.drawable.photo0_0,
+                "擁有五層圓型寶塔的壯觀寺廟，每逢櫻花季會吸引大批人潮。")
+        )
         sceneList.add(
             Scenes(
                 4,"Taipei",
